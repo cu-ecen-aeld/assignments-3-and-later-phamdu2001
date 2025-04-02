@@ -1,4 +1,4 @@
-CC = $(CROSS_COMPILE)gcc
+CC = $(CROSS_COMPILE)aarch64-none-linux-gnu-gcc
 CFLAGS = -Wall -Wextra -Werror -std=c11
 TARGET = writer
 SRC = writer.c
